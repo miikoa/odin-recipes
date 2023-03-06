@@ -1,7 +1,28 @@
 body{
     background-color:rgba(255, 192, 203, 0.084);
-    
-     
+    box-sizing: border-box;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    background-color:#FFBBDD;
+    max-width: 100%;
+    margin-top: 20px;
+    height: 15%;
+    padding: 15px;
+    border: 1px solid #5555FF;
+}
+
+.web-site-name{
+    font-family: fantasy;
+    font-size:medium ;
+    margin-right: auto;
+    word-spacing: 2px; 
+    letter-spacing:  2px; 
 }
 
 .recipes{
@@ -12,3 +33,14 @@ body{
      
 }
 
+img{
+    border-radius: 2em;
+    border: 2px solid rgb(4, 4, 162);
+    
+}
+
+.with-picture{
+    font-family: slab serif, script, 'Courier New', Courier, monospace;
+    font-size: small;
+    align-content:left;
+}
