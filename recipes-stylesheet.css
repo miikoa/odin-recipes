@@ -1,36 +1,96 @@
 body{
     background-color:rgba(255, 192, 203, 0.084);
     box-sizing: border-box;
+    word-spacing: 2px; 
+    letter-spacing:  2px; 
+    font-family:  fantasy;
 }
 
-.social{
+li{
     list-style: none;
-    display: flex;
-    justify-content: flex-end;
+}
+
+.social-container{
+    display: block;
     align-items: center;
-    gap: 20px;
-    background-color:#FFBBDD;
+      flex: auto;
+    list-style: none;
+    
     max-width: 100%;
     margin-top: 20px;
+    margin-bottom: 40px;
     height: 15%;
     padding: 15px;
     border: 1px solid #5555FF;
 }
 
-.web-site-name{
-    font-family: fantasy;
-    font-size:medium ;
-    margin-right: auto;
-    word-spacing: 2px; 
-    letter-spacing:  2px; 
+.social-media-container{
+    display: inline-flex;
+    gap: 40px;
+    align-items: center;
+    flex:auto
 }
 
+.logo{
+    margin-right: auto;
+    font-family: fantasy;
+    word-spacing: 2px; 
+    letter-spacing:  2px; 
+    font-size: small;
+    font-weight:bolder;
+    color:#000
+}
+
+
+.recipe-categories-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+    padding: 0;
+    color:black;
+    border-bottom: 1px solid #5555FF;
+    margin-bottom: 40px;
+    height: 15%;
+}
+
+.web-site-name{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:bold;
+    margin: 0;
+}
+
+
+.menu{
+    margin-left: auto;
+}
+
+.menu, .categories{
+    list-style: none;
+    color: grey;
+    text-decoration: none;
+}
+      
+ .menu:hover {
+    color: darkgrey;
+      }
+      
 .recipes{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: var(Lucida);
-    font-size: larger;
+    font-family:  fantasy;
+    font-size: medium;
     font-weight: 600;
+    list-style: none;
+    word-spacing: 1,5px;
+    letter-spacing:  2px; 
      
+}
+
+.recipe-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 img{
@@ -44,3 +104,4 @@ img{
     font-size: small;
     align-content:left;
 }
+ 
