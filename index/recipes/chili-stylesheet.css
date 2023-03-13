@@ -4,6 +4,8 @@ body{
     line-height:2em;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
+    margin-left: 32px;
+    margin-right: 32px;
     }
 .title{
     text-align: center;
