@@ -1,6 +1,5 @@
 ::before::after{
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 body{
@@ -11,33 +10,8 @@ body{
     font-size: medium;
 }
 
-.main-social-container{
-    display: block;
-    align-items: center;
-    flex: auto;
-    list-style: none;
-    max-width: 100%;
-   background-color: honeydew; 
-}
 
-.sub-social-media-container{
-    display: inline-flex;
-    gap: 40px;
-    align-items: center;
-    flex:auto;
-}
-.container-for-three-socials-only{
-    
-   
-}
-.social-media{
-    margin-left:
-}
-   
-#Eiffel-Tower{
-    border: none;
-    margin-right: 100%;
-}
+
 .brand-bar{
     display: flex;
     justify-content: space-evenly;
@@ -49,8 +23,12 @@ body{
     margin-right: 5px;
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
-    background-color: #FFFFFF;
+    background-color: ;
     gap: 20px;
+}
+#Eiffel-Tower{
+    border: none;
+    margin-right: 100%;
 }
 
 .logo{
@@ -58,6 +36,10 @@ body{
     padding-right: 5px;
     margin-right: auto;  
  }
+ .logo-link img:hover {
+    filter: grayscale(100%) brightness(80%);
+  }
+  
 .web-site-name{
      font-family: fantasy;
      color:cadetblue;
@@ -73,7 +55,6 @@ body{
     align-items: center;
     flex: auto;
     padding: 10px;
-    
     margin-top: 20px;
     margin-bottom: 80px;
 }

@@ -80,3 +80,28 @@ img{
     border: 2px solid #DDDDDD;   
 }
 
+figcaption{
+    font-size: large;
+    font-weight: bold;
+    padding-top: 5%;
+     
+}
+.bon-appetit{
+    margin-bottom: 40px;
+}
+
+#ingredients-steps{
+    line-height: 2em;
+}
+ p{
+    text-align: justify;
+    line-height: 1.5;
+    margin-right: 20px;
+    margin-left: 20px;   
+ }
+
+ .paragraph-heads{
+    font-weight: bold;
+    margin-top: 40px;
+    
+ }

@@ -1,0 +1,112 @@
+::before::after{
+    box-sizing: border-box; 
+    word-spacing: 2px; 
+    letter-spacing:  2px; 
+    line-height: 2em;
+}
+
+body{
+    background-color:#FFFFFF;
+    word-spacing: 2px; 
+    letter-spacing:  2px; 
+    font-family:  'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+
+
+.brand-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: auto;
+    list-style: none;
+    max-width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    background-color: ;
+    gap: 20px;
+}
+#Eiffel-Tower{
+    border: none;
+    margin-right: 100%;
+}
+
+.logo{
+    border-right: 1px solid #DDDDDD;
+    padding-right: 5px;
+    margin-right: auto;  
+ }
+ .logo-link img:hover {
+    filter: grayscale(100%) brightness(80%);
+  }
+  
+.web-site-name{
+     font-family: fantasy;
+     color:cadetblue;
+}
+
+
+.recipe-categories-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.menu, .categories{
+    list-style: none;
+    color: grey;
+    text-decoration: none;
+}
+
+.menu{
+    margin-left: auto;
+}     
+ .menu:hover {
+    color: darkgrey;
+      }
+  
+img{
+    border-radius: 2em;
+    border: 2px solid #DDDDDD;   
+}
+
+figcaption{
+    font-size: large;
+    font-weight: bold;
+    padding-top: 5%;
+     
+}
+.bon-appetit{
+    margin-bottom: 40px;
+}
+
+#ingredients-steps{
+    line-height: 2em;
+}
+ p{
+    text-align: justify;
+    line-height: 1.5;
+    margin-right: 20px;
+    margin-left: 20px;   
+ }
+
+ .paragraph-heads{
+    font-weight: bold;
+    margin-top: 40px;
+    
+ }
+
+ 
+  
