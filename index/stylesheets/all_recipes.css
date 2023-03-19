@@ -2,7 +2,7 @@
     box-sizing: border-box; 
 }
 
-body{
+nav{
     background-color:#FFFFFF;
     word-spacing: 2px; 
     letter-spacing:  2px; 
@@ -77,6 +77,8 @@ li{
     list-style: none;
     word-spacing: 1,5px;
     letter-spacing:  2px; 
+    line-height: 2em;
+    
 }
 
 
@@ -91,9 +93,25 @@ li{
 }     
  .menu:hover {
     color: darkgrey;
+}
+      
+.recipes{
+    list-style: none;
+    color: grey;
+    text-decoration: none;
+    ont-weight: 100;
+        }
+
+.recipes:hover{
+        color: darkgrey;
       }
   
 img{
     border-radius: 2em;
     border: 2px solid #DDDDDD;   
+}
+
+.list-of-recipes{
+    margin-top: 50px;
+    font-weight: 100;
 }

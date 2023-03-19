@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family: fantasy;
-    background-color:rgba(255, 192, 203, 0.084);
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 2px; 
+    letter-spacing:  2px; 
+    font-size: medium;
+    
   }
     
   .title-container{
@@ -42,15 +45,13 @@ img{
   box-sizing: border-box; 
 }
 
-body{
+nav{
   background-color:#FFFFFF;
   word-spacing: 2px; 
   letter-spacing:  2px; 
   font-family:  'Courier New', Courier, monospace;
   font-size: medium;
 }
-
-
 
 .brand-bar{
   display: flex;
@@ -63,7 +64,7 @@ body{
   margin-right: 5px;
   border-top: 1px solid #DDDDDD;
   border-bottom: 1px solid #DDDDDD;
-  background-color: ;
+  
   gap: 20px;
 }
 #Eiffel-Tower{
@@ -85,7 +86,6 @@ body{
    color:cadetblue;
 }
 
-
 .recipe-categories-container{
   display: flex;
   justify-content: space-between;
@@ -96,7 +96,7 @@ body{
   margin-bottom: 80px;
 }
 
-li{
+ul{
   list-style: none;
 }
 
@@ -119,3 +119,6 @@ img{
   border: 2px solid #DDDDDD;   
 }
 
+.meal-images{
+
+}

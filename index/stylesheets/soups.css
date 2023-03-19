@@ -48,7 +48,6 @@ body{
      color:cadetblue;
 }
 
-
 .recipe-categories-container{
     display: flex;
     justify-content: space-between;
@@ -80,6 +79,10 @@ ul{
 img{
     border-radius: 2em;
     border: 2px solid #DDDDDD;   
+}
+
+figure{
+    margin-top: 40px;
 }
 
 figcaption{

@@ -1,17 +1,19 @@
 
 ::before::after{
     box-sizing: border-box; 
-}
-
-body{
-    background-color:#FFFFFF;
     word-spacing: 2px; 
     letter-spacing:  2px; 
     font-family:  'Courier New', Courier, monospace;
     font-size: medium;
 }
 
-
+nav{
+    background-color:#FFFFFF;
+    word-spacing: 2px; 
+    letter-spacing:  2px; 
+    font-family:  'Courier New', Courier, monospace;
+    font-size: medium;
+}
 
 .brand-bar{
     display: flex;
@@ -24,7 +26,6 @@ body{
     margin-right: 5px;
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
-    background-color: ;
     gap: 20px;
 }
 #Eiffel-Tower{
@@ -57,11 +58,20 @@ body{
     margin-bottom: 80px;
 }
 
-li{
+ul{
     list-style: none;
+    word-spacing: 2px; 
+    letter-spacing:  2px; 
+    font-family:  'Courier New', Courier, monospace;
+    font-size: medium;
 }
 
-
+ol{
+    word-spacing: 2px; 
+    letter-spacing:  2px; 
+    font-family:  'Courier New', Courier, monospace;
+    font-size: medium;
+}
 .menu, .categories{
     list-style: none;
     color: grey;
@@ -80,20 +90,22 @@ img{
     border: 2px solid #DDDDDD;   
 }
 
-figcaption{
-    font-size: large;
-    font-weight: bold;
-    padding-top: 5%;
-     
+.figure-chili{
+padding-top: 3%;
 }
-.bon-appetit{
-    margin-bottom: 40px;
+figcaption{
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align:start
 }
 
-#ingredients-steps{
-    line-height: 2em;
-}
+
  p{
+    word-spacing: 2px; 
+    letter-spacing:  2px; 
+    font-family:  'Courier New', Courier, monospace;
+    font-size: medium;
     text-align: justify;
     line-height: 1.5;
     margin-right: 20px;
@@ -103,5 +115,11 @@ figcaption{
  .paragraph-heads{
     font-weight: bold;
     margin-top: 40px;
-    
  }
+
+ #ingredients-steps{
+    line-height: 2em;
+ }
+   figure{
+    margin-top: 40px;
+   }
